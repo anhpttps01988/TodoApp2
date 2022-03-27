@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashBoardFragment">
+
+    <fragment
+        android:id="@+id/dashBoardFragment"
+        android:name="anh.ptt.presentation.view.dashboard.DashBoardFragment"
+        android:label="DashBoardFragment" >
+        <action
+            android:id="@+id/action_dashBoardFragment_to_callListFragment"
+            app:destination="@id/callListFragment" />
+        <action
+            android:id="@+id/action_dashBoardFragment_to_sellListFragment"
+            app:destination="@id/sellListFragment" />
+        <action
+            android:id="@+id/action_dashBoardFragment_to_buyListFragment"
+            app:destination="@id/buyListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/buyListFragment"
+        android:name="anh.ptt.presentation.view.buylist.BuyListFragment"
+        android:label="BuyListFragment" />
+    <fragment
+        android:id="@+id/callListFragment"
+        android:name="anh.ptt.presentation.view.calllist.CallListFragment"
+        android:label="CallListFragment" />
+    <fragment
+        android:id="@+id/sellListFragment"
+        android:name="anh.ptt.presentation.view.selllist.SellListFragment"
+        android:label="SellListFragment" />
+</navigation>

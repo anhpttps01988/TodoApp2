@@ -1,0 +1,8 @@
+apply plugin: 'com.android.library'
+apply from: "../gradle/common.gradle"
+
+dependencies {
+    implementation project(path: ':core')
+    implementation project(path: ':device')
+    implementation project(path: ':domain')
+}

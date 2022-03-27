@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_list">Call List</string>
+    <string name="buy_list">Buy List</string>
+    <string name="sell_list">Sell List</string>
+    <string name="name">Name: %s</string>
+    <string name="price">Price: %.2f</string>
+    <string name="quantity">Quantity: %d</string>
+    <string name="number">Number: %d</string>
+</resources>
